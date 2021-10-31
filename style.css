@@ -1,0 +1,84 @@
+body {
+    background: #000;
+}
+
+.avatar {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 55%;
+    border: 2px solid white;
+
+}
+
+#output {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+
+form {
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    padding-top: 50px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: none;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+p {
+    text-transform: uppercase;
+}
+
+.followers_avatar {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 55%;
+    border: 2px solid white;
+}
+
+.followers_title {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.following_avatar {
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 55%;
+    border: 2px solid white;
+}
+
+.repos_card-item {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px 0;
+
+}
